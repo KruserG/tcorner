@@ -1,0 +1,108 @@
+body{
+  background-image: linear-gradient(#f0f0f0, #e8e8e8);
+font-family: Nunito;
+}
+
+
+
+.barreNav{
+  background-image: radial-gradient(#57b1d4, #469ac2);
+}
+
+.lavoix{ 
+  display: block;
+  width: 20rem; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+}
+
+
+.aventure{
+  padding-top: 2rem;
+ 
+font-size: 7rem;
+}
+
+.countdown{
+
+  font-size: 3rem;
+ 
+  color: #e8e8e8;
+  background-image: radial-gradient(#57b1d4, #469ac2);
+  border-radius: 50rem;
+  padding: 1rem;
+  transition: 3s, 1s;
+  
+}
+.countdown:after{
+  opacity: 0;
+  content: '\00bb';
+}
+
+
+
+.countdown:hover:after{
+
+ 
+  opacity: 1;
+  margin-right: 5rem;
+  content:'\00bb';
+  transition: 0.4s ease-in-out;
+  
+
+}
+
+.limit{
+  max-width: 90rem;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.big{
+  font-size: 1.3rem;
+}
+.opacity{
+opacity: 0.4;
+}
+
+.white{
+  color:white;
+}
+
+.white:hover{
+  color:#c1ebff;
+}
+
+.noborder{
+  border-radius: 0;
+}
+
+
+.exclu{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+.exclu:hover{
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+transition: 0.4s;
+}
+
+.zoom{
+  transition: 0.4s;
+}
+.zoom:hover{
+  transform: scale(1.1);
+  transition: 0.4s;
+  
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
