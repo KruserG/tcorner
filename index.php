@@ -21,7 +21,7 @@
 <link href="./style/styleIndex.css" rel="stylesheet" />
 
 <!-- FAVICON -->
-<link rel="shortcut icon" src="./image/favicon.png" type="image/png" href="#"/>
+<link rel="icon" src="./image/tcLogo.ico" type="image/x-icon"/>
 
 <!-- FONTS -->
 <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
